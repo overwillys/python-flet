@@ -26,8 +26,8 @@ def main(page: ft.Page):
     )
 
 #Modo Desktop
-ft.app(target=main)
+#ft.app(target=main)
 
 #Modo web
-#ft.app(target=main, view=ft.AppView.WEB_BROWSER)
+ft.app(target=main, view=ft.AppView.WEB_BROWSER)
 
