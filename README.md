@@ -43,6 +43,21 @@ Algunos controles, tipo page es (container) podemos usar para cuando tengamos va
         ft.Text("C")
     ])
 )
+Example con ciclos:
 
+    lenguajes = ['C++', 'Java', 'Python', 'JavaScript']
+    etiquetas = []
+    
+    #usando un array para la lista
+    for e in lenguajes:
+        etiquetas.append(ft.Text(e))
+    
+    row_datos = ft.Row(controls=etiquetas)    
+        
+    #row_datos = ft.Row(controls=[ft.Text('Python'), ft.Text('Flet'), ft.Text('Flutter')])
+    page.add(row_datos)
 
+    #### 
+    Tambien podemos definir funciones (def) dentro de otras funciones.
+    
 
