@@ -25,3 +25,8 @@ Son visibles dentro de la Page, o dentro de otros controles.
 Ejemplo:
     lbl_texto = ft.Text(value="Hola mundo", color="green")
     page.controls.append(lbl_texto)
+
+Convenciones de nombres:
+    lbl_direccion --> Label
+    txt_direccion --> TextField
+    cbx_nivel_academico --> ComboBox
