@@ -18,3 +18,7 @@ Al ejecutarse:
 En web, cada pestaña represeará una sessión de usuario.
 En ventana, solamente será una sección.
 Una página representa un CANVAS donde se usan los controles, elementos en pantalla, de los cuales podemos modificarlos a gusto.
+
+#Controles - Interfaz de usuarios o Widgets
+Son visibles dentro de la Page, o dentro de otros controles.
+
