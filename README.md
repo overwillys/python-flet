@@ -22,3 +22,6 @@ Una página representa un CANVAS donde se usan los controles, elementos en panta
 #Controles - Interfaz de usuarios o Widgets
 Son visibles dentro de la Page, o dentro de otros controles.
 
+Ejemplo:
+    lbl_texto = ft.Text(value="Hola mundo", color="green")
+    page.controls.append(lbl_texto)
