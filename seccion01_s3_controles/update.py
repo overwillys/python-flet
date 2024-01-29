@@ -10,4 +10,4 @@ def main(page: ft.Page):
         page.update()
         time.sleep(1)
         
-ft.app(target=main, view=ft.AppView.WEB_BROWSER)   
+ft.app(target=main, view=ft.AppView.WEB_BROWSER)

@@ -30,3 +30,19 @@ Convenciones de nombres:
     lbl_direccion --> Label
     txt_direccion --> TextField
     cbx_nivel_academico --> ComboBox
+
+Se puede resumir
+    page.controls.append(lbl_texto)   <-->     page.add(lbl_texto)
+
+Algunos controles, tipo page es (container) podemos usar para cuando tengamos varios controles, ejemplo puede contener otro controles, ejemplo el row y un esquema de filas:
+
+ page.add(
+    ft.Row(controls=[
+        ft.Text("A"),
+        ft.Text("B"),
+        ft.Text("C")
+    ])
+)
+
+
+
